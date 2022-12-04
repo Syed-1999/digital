@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital clock</title>
+    <style>
+        body{
+            margin: 0%;
+            padding: 0%;
+            background-color:rgb(180, 85, 186) ;
+            
+            
+        }
+        .container{
+            border: 5px solid white;
+            border-radius: 20px;
+            padding-left: 50px;
+            padding-right: 50px;
+            color: white;
+             font-family: 'Open Sans Condensed',Arial, Helvetica, sans-serif; 
+            font-weight: bold;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            font-size: 80px;
+
+        }
+    </style>
+    <script src="digital.js"></script>
+</head>
+<body>
+    <div class="container">
+        <span id="hours">00</span>
+        <span>:</span>
+        <span id="minutes">00</span>
+        <span>:</span>
+       <span id="seconds">00</span>
+        <span id="session">AM</span>
+
+    </div>
+   
+   
+</body>
+</html>
